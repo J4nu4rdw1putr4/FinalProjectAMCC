@@ -1,0 +1,17 @@
+{
+  "name": "finalproject1",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Januar",
+  "type": "commonjs",
+  "main": "stokBarang.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./Style/input.css -o ./Style/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {}
+}
