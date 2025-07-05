@@ -93,8 +93,8 @@ Berikut adalah fitur-fitur yang kami rencanakan untuk Seimbang.in:
 
 1.  **Clone repositori ini:**
     ```bash
-    git clone [https://github.com/username/nama-repo.git](https://github.com/username/nama-repo.git)
-    cd nama-repo 
+    git clone https://github.com/J4nu4rdw1putr4/FinalProjectAMCC
+    cd <nama-repo> 
     ```
 
 2.  **Install dependency via Composer:**
