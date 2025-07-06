@@ -1,9 +1,9 @@
-<h1 align="center">
+nd<h1 align="center">
 Baras (Website Jual/Beli barang bekas yang terpercaya(Final Project AMCC))
 </h1>
 
 <div align="center">
- <img src="/FrontEnd/Assets/ChatGPT Image Jun 28, 2025, 10_16_08 AM.png" width="200" alt="Logo Seimbang.in"/>
+ <img src="/FrontEnd/Assets/ChatGPT Image Jun 28, 2025, 10_16_08 AM.png" width="200" alt="Logo Baras"/>
 </div>
 
 <h1 align="center">
@@ -31,8 +31,8 @@ Melalui fitur unggulan seperti pengajuan penawaran oleh user/pengguna, unggah fo
 
 Untuk mempermudah juri/penguji, kami telah menyediakan prototipe yang dapat diakses secara online serta akun demo.
 
-- **Link Demo**: Belum ada `[MASUKKAN LINK DEPLOY PROYEK DI SINI]` (optional)
-- **Link Postman / Dokumentasi API** : Belum ada `[MASUKKAN LINK DOKUMENTASI API DISINI]`
+- **Link Demo**: -
+- **Link Postman / Dokumentasi API** : https://github.com/J4nu4rdw1putr4/FinalProjectAMCC/blob/810c6c13637a65cc116f78ef7125f63ba2654589/BackEnd/backend-api-main/README.md
 - **Email**: `admin@gmail.com`
 - **Password**: `admin12345`
 
@@ -55,11 +55,15 @@ Repositori ini berisi prototipe untuk proyek final. Tidak semua fitur yang terca
 - [x] fitur negosiasi (Make an Offer) untuk user
 - [ ] User dapat menjadi Reseller ataupun Consumer User
 - [ ] Manajemen list barang
+- [ ] Menambahkan/upload produk di website
+- [ ] Mengedit kartu produk
+- [ ] Checkout barang untuk User
+- [ ] List pembayaran (Qris, Rek.Bank, dan COD)
 ---
 
 ## 🌟 Fitur Aplikasi
 
-Berikut adalah fitur-fitur yang kami rencanakan untuk Seimbang.in:
+Berikut adalah fitur-fitur yang kami rencanakan untuk Baras:
 
 ### 1. Negosiasi (Make an Offer)
 - **Negosiasi**:Untuk memudahkan user menemukan barang yang diimpikannya dengan harga yang terjangkau.
@@ -69,6 +73,15 @@ Berikut adalah fitur-fitur yang kami rencanakan untuk Seimbang.in:
 
 ### 3. Reseller
 - **Menjadi Reseller**: User dapat menjadi Reseller di website kami ataupun menjadi Consumer User
+
+### 4. Add Product & Edit Product
+- **Menambah barang**: Reseller dapat menambahkan barang dan juga mengedit deskripsi produk.
+
+### 5. Checkout
+- **Checkout barang**: User dapat memulai pembayaran suatu produk yang diinginkan
+
+### 6. Pembayaran
+- **List pembayaran**: User dapat melakukan pembayaran dengan cara Qris, melalui Rekening Bank, atau COD (Cash on Delivery).
 
 ---
 
@@ -93,33 +106,37 @@ Berikut adalah fitur-fitur yang kami rencanakan untuk Seimbang.in:
 
 1.  **Clone repositori ini:**
     ```bash
-    git clone https://github.com/J4nu4rdw1putr4/FinalProjectAMCC
-    cd <nama-repo> 
+    git clone https://github.com/J4nu4rdw1putr4/FinalProjectAMCC 
     ```
 
-2.  **Install dependency via Composer:**
+2.  **Buat Folder baru untuk menempatkan cloningan folder GitHUb tersebut:**
+    ```bash
+    cd BackEnd
+    ```
+
+3.  **Install dependency via Composer:**
     ```bash
     composer install
     ```
 
-3.  **Salin file environment:**
+4.  **Salin file environment:**
     ```bash
     cp .env.example .env
     ```
 
-4.  **Generate application key:**
+5.  **Generate application key:**
     ```bash
     php artisan key:generate
     ```
 
-5.  **Konfigurasi database di file `.env` kamu.**
+6.  **Konfigurasi database di file `.env` kamu.**
 
-6.  **Jalankan migrasi database:**
+7.  **Jalankan migrasi database:**
     ```bash
     php artisan migrate
     ```
 
-7.  **Jalankan server lokal:**
+8.  **Jalankan server lokal:**
     ```bash
     php artisan serve
     ```
@@ -131,8 +148,7 @@ Berikut adalah fitur-fitur yang kami rencanakan untuk Seimbang.in:
 
 1.  **Pindah ke direktori frontend (jika terpisah):**
     ```bash
-    # Jika frontend berada di folder terpisah, pindah ke folder tersebut
-    # Contoh: cd ../frontend 
+    cd .../FrontEnd
     ```
 
 2.  **Install dependency Node.js:**
